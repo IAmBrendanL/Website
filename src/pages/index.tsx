@@ -21,7 +21,7 @@ export default function Home() {
         <div className={styles.grid}>
           <div className={styles.center}>
             <text className={styles.code} style={{ fontSize: 20 }}>
-              Coming soon to an array of light emitting diodes near you...
+              Coming soon to a display near you...
             </text>
           </div>
         </div>
