@@ -16,6 +16,12 @@
   font-family: var(--font-mono);
 }
 
+.columnContainer {
+  display: flex;
+  min-width: 100%;
+  justify-content: center;
+}
+
 .description a {
   display: flex;
   justify-content: center;
@@ -33,13 +39,43 @@
 }
 
 .code {
-  font-weight: 700;
   font-family: var(--font-mono);
 }
 
 .grid {
-  display: grid;
+  display: flex;
   max-width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.listItem {
+  font-size: 20;
+  font-family: var(--font-mono);
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  min-width: 70%;
+}
+
+.bodyText {
+}
+
+.title {
+  font-size: 40;
+  font-family: var(--font-mono);
 }
 
 .card {
