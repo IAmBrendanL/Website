@@ -68,8 +68,9 @@ export default function Home() {
             className={styles.code}
             style={{ fontSize: 20, marginBottom: 40 }}
           >
-            I&apos;m currently working at a digital mental health start up which
-            has provided many opportunities for professional development.
+            I&apos;m currently working at a digital mental health start up. The
+            work I do there has lead to many opportunities for professional
+            development.
           </text>
           <text
             className={styles.title}
