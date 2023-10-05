@@ -1,5 +1,8 @@
 export const hats = [
   "Native iOS Engineer",
+  "Android Dabbler",
+  "React Native Engineer",
+  "Dev-Ops-In-A-Pinch",
   "Web Developer",
   "Cloud Architect",
   "Web Developer",
@@ -13,10 +16,11 @@ export const hats = [
   "Tech Support",
   "Interviewer",
   "Dad",
-  "Linux Sys-Admin",
+  "Linux Sysadmin",
   "Mailing List admin",
   "Technical Lead",
   '"Solutions Guy"',
+  "Wordsalad Generator",
 ]
 
 export const products: products[] = [

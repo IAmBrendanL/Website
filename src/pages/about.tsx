@@ -49,13 +49,13 @@ export default function Home() {
             development (iOS Native + React Native). I&apos;ve got a lot of
             breadth in my professional experience: sql, python, svelte, react,
             flask, Native iOS, Android, UIKit, React Native, HTML/CSS, Graphql,
-            noSQL, AWS, Azure, Docker, basic devops, linux systems
-            administration, word salad, alphabet soup, & jargon pie. Before
+            noSQL, AWS, Azure, Docker, basic DevOps, Linux Systems
+            Administration, word salad, alphabet soup, & jargon pie. Before
             finishing my degree I spent four years as a student employee
             providing end-user support During my final year of university I
             spent also assisted in managing 20 student employees. Due to my tech
             support experience I&apos;ve often ended up as the backup for our
-            main it person in small teams.
+            main IT person in small teams.
           </text>
           <text
             className={styles.code}
