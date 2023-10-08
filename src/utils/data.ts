@@ -48,12 +48,13 @@ export const products: products[] = [
   {
     title: "Vira Mobile (React Native)",
     blurb:
-      "Uses React Native for most of the app with Native Modules for sensor collection and data management.",
+      "Uses React Native for most of the app with native code for sensor collection and data management.",
     // TODO: think about adding something that lists the various frameworks and technologies I've used in this app
   },
   {
     title: "Vira Web app",
-    blurb: "",
+    blurb:
+      "A React website that allows practitioners and organization to interact with clients using Vira mobile..",
   },
   {
     title: "brendanlindsey.com",
