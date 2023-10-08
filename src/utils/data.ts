@@ -43,7 +43,8 @@ export const products: products[] = [
   },
   {
     title: "EARS iOS",
-    blurb: "",
+    blurb:
+      "A native iOS app that collects Accelerometer, GPS, Motion, Screen-On time, and other data for IRB regulated studies. Also includes a custom survey system.",
   },
   {
     title: "Vira Mobile (React Native)",
