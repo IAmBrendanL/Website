@@ -1,0 +1,22 @@
+.postList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.postLink {
+  justify-self: flex-start;
+  margin-bottom: 0.4em;
+  /* border-bottom: 1px solid white; */
+}

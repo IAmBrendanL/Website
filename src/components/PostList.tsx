@@ -1,3 +1,26 @@
+import styles from "../styles/PostList.module.css"
+
+/// Displays a list of posts
+export default function PostList() {
+  let slugs = ["2024-08-07", "2024-02-19"]
+  return (
+    <div className={styles.postList}>
+      <h2 className={styles.center}>Posts:</h2>
+      <div className={styles.column}>
+        {slugs.map((slug) => {
+          return (
+            <a className={styles.postLink} key={slug} href={`/posts/${slug}`}>
+              <span>{slug}</span>
+            </a>
+          )
+        })}
+      </div>
+    </div>
+  )
+}
+
+/* Old code from an attempt to make this dynamic */
+
 // import fs from "fs"
 // import path from "path"
 
@@ -38,25 +61,3 @@ function PostList() {
   )
 }
 */
-
-function PostList() {
-  let slugs = ["2024-08-07", "2024-02-19"]
-  return (
-    <div>
-      <h2>Posts</h2>
-      <ul>
-        {slugs.map((slug) => {
-          return (
-            <li key={slug}>
-              <a href={`/posts/${slug}`}>
-                <span>{slug}</span>
-              </a>
-            </li>
-          )
-        })}
-      </ul>
-    </div>
-  )
-}
-
-export default PostList

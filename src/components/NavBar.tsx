@@ -21,7 +21,7 @@ export default function NavBar() {
               <a
                 key={route.location}
                 href={route.location}
-                style={{ fontSize: 30, textDecorationLine: "underline" }}
+                style={{ fontSize: 30 }}
               >
                 {route.displayName}
               </a>
