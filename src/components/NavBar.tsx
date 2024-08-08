@@ -1,19 +1,20 @@
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/Home.module.css"
 
 type Route = {
-  displayName: string;
-  location: string;
-};
+  displayName: string
+  location: string
+}
 
 const RouteList: Route[] = [
   { displayName: "Home", location: "/" },
   { displayName: "About", location: "/about" },
-];
+]
 
 export default function NavBar() {
   return (
     <>
       <div className={styles.columnContainer}>
+        {/* TODO: make the borders extend past the standard content */}
         <div className={styles.navBar}>
           {RouteList.map((route) => {
             return (
@@ -24,10 +25,10 @@ export default function NavBar() {
               >
                 {route.displayName}
               </a>
-            );
+            )
           })}
         </div>
       </div>
     </>
-  );
+  )
 }

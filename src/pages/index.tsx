@@ -1,6 +1,7 @@
 import Head from "next/head"
 import styles from "@/styles/Home.module.css"
 import NavBar from "@/components/NavBar"
+import PostList from "@/components/PostList"
 
 export default function Home() {
   return (
@@ -18,10 +19,7 @@ export default function Home() {
         <NavBar />
         <div className={styles.columnContainer}>
           <div className={styles.column}>
-            <text className={styles.title} style={{ marginTop: 20 }}>
-              TODO: List post or other things here (see &quot;About&quot; in the
-              meantime)
-            </text>
+            <PostList />
           </div>
         </div>
       </main>

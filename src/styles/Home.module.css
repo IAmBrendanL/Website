@@ -53,6 +53,13 @@
   max-width: 50%;
 }
 
+.contentColumn {
+  flex-direction: column;
+  max-width: 750px;
+  justify-content: center;
+  padding: 2rem;
+}
+
 .listItem {
   font-size: 20;
   font-family: var(--font-mono);
@@ -68,6 +75,9 @@
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
   min-width: 70%;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  max-width: 800px;
 }
 
 .bodyText {
