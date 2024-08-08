@@ -40,7 +40,7 @@ function PostList() {
 */
 
 function PostList() {
-  let slugs = ["2024-02-19", "2024-08-07"]
+  let slugs = ["2024-08-07", "2024-02-19"]
   return (
     <div>
       <h2>Posts</h2>
