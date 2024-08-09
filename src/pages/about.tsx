@@ -35,9 +35,9 @@ export default function Home() {
       </Head>
       <NavBar />
       <ContentColumn>
-        <text className={styles.title} style={{ fontSize: 40, marginTop: 20 }}>
+        <p className={styles.title} style={{ fontSize: 40, marginTop: 20 }}>
           About Me
-        </text>
+        </p>
         <text
           className={styles.code}
           style={{ fontSize: 20, marginBottom: 20 }}
@@ -48,7 +48,7 @@ export default function Home() {
           flask, Native iOS, Android, UIKit, React Native, HTML/CSS, Graphql,
           noSQL, AWS, Azure, Docker, basic DevOps, Linux Systems Administration,
           word salad, alphabet soup, & jargon pie. Before finishing my degree I
-          spent four years as a student employee providing end-user support
+          spent four years as a student employee providing end-user support.
           During my final year of university I spent also assisted in managing
           20 student employees. Due to my tech support experience I&apos;ve
           often ended up as the backup for our main IT person in small teams.
@@ -68,16 +68,16 @@ export default function Home() {
           work I do there has lead to many opportunities for professional
           development.
         </text>
-        <text
+        <p
           className={styles.title}
           style={{ fontSize: 30, marginBottom: 10 }}
         >
-          Some of the Hats I&apos;ve worn or am wearing
-        </text>
+          Some of the Hats I&apos;ve worn or am wearing:
+        </p>
         <ul style={{ marginBottom: 40 }}>{[...hatListItems]}</ul>
-        <text className={styles.title} style={{ fontSize: 40 }}>
+        <p className={styles.title} style={{ fontSize: 40 }}>
           About This Site
-        </text>
+        </p>
         <text className={styles.code} style={{ fontSize: 20 }}>
           This site is supposed to be part blog part whatever I&apos;m in the
           mood for. It&apos;s set up as a Next.js static site and hosted on
