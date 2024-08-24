@@ -22,8 +22,8 @@ export default function Post1() {
         <hr />
         <h2>Getting stuff done vs Just thinking about doing it.</h2>
         <p>
-          TL;DR Better to have something rather than nothing. Even if what
-          you&apos;ve made is crappy you still made it.
+          TL;DR Better to have something than just think about it. Even if what
+          {`you've`} made is crappy you still made it.
         </p>
         <p>
           This is something I&apos;ve historically struggled with. I came to the
