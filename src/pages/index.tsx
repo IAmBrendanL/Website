@@ -15,12 +15,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <NavBar />
-        <div className={styles.columnContainer}>
-          <div className={styles.column}>
-            <PostList />
-          </div>
+      <main className={styles.main}>
+        <div className={styles.contentColumn}>
+          <h1 className={styles.title}>Brendan Lindsey</h1>
+          <NavBar />
+          <PostList />
         </div>
       </main>
     </>

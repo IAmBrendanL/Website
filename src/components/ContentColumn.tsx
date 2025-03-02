@@ -6,7 +6,7 @@ export default function ContentColumn({
 }: React.PropsWithChildren<{}>) {
   return (
     <div className={styles.columnContainer}>
-      <div className={styles.contentColumn}>{children}</div>
+      <main className={styles.contentColumn}>{children}</main>
     </div>
   )
 }

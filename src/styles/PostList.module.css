@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 600px;
+  align-items: flex-start;
+  margin-top: 2rem;
 }
 
 .center {
@@ -11,12 +12,29 @@
   align-items: center;
 }
 
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .column {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
+
 .postLink {
   justify-self: flex-start;
-  margin-bottom: 0.4em;
+  margin-bottom: 1rem;
+  color: var(--foreground);
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  text-decoration: none;
   /* border-bottom: 1px solid white; */
+}
+
+.postLink:hover {
+  color: var(--foreground);
+  text-decoration: underline;
 }

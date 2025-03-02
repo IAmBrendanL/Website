@@ -1,4 +1,5 @@
 import styles from "@/styles/Home.module.css"
+import ThemeToggle from "./ThemeToggle"
 
 type Route = {
   displayName: string
@@ -12,23 +13,15 @@ const RouteList: Route[] = [
 
 export default function NavBar() {
   return (
-    <>
-      <div className={styles.columnContainer}>
-        {/* TODO: make the borders extend past the standard content */}
-        <div className={styles.navBar}>
-          {RouteList.map((route) => {
-            return (
-              <a
-                key={route.location}
-                href={route.location}
-                style={{ fontSize: 30 }}
-              >
-                {route.displayName}
-              </a>
-            )
-          })}
-        </div>
+    <nav className={styles.navBar}>
+      <div className={styles.navLinks}>
+        {RouteList.map((route) => (
+          <a key={route.location} href={route.location}>
+            {route.displayName}
+          </a>
+        ))}
       </div>
-    </>
+      <ThemeToggle />
+    </nav>
   )
 }
