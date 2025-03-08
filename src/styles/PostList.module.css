@@ -26,10 +26,9 @@
 
 .postLink {
   justify-self: flex-start;
-  margin-bottom: 1rem;
   color: var(--foreground);
   font-family: var(--font-serif);
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-decoration: none;
   /* border-bottom: 1px solid white; */
 }
@@ -37,4 +36,15 @@
 .postLink:hover {
   color: var(--foreground);
   text-decoration: underline;
+}
+
+.postDate {
+  font-size: 0.75rem;
+  color: var(--foreground);
+  opacity: 0.5;
+  font-family: var(--font-mono);
+}
+
+.postItem {
+  margin-bottom: 1rem;
 }

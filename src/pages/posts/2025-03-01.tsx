@@ -28,9 +28,31 @@ export default function Post3() {
               I&apos;ve been using ChatGPT and Copilot at work for a while now.
               ChatGPT has been a great tool for rubber-ducking questions and
               surfacing obscure Azure documentation. Copilot has been helpful in
-              making a smarter autocomplete, but that&apos;s been about it. At
-              the current price though, it only needs to save you a fraction of
-              an hour to have a positive ROI.
+              making a smarter autocomplete. Even by just providing better
+              autocomplete, Copilot only needed to save you a fraction of an
+              hour to have a positive ROI at the current price. However, I
+              recently started using Copilot Edits and while there are still a
+              lot of rough edges, does a decent job of scaffolding new features.
+            </p>
+            <p>
+              I&apos;ve also been trying out Cursor for personal projects.
+              Cursor seems like a more complete product and the edit/review
+              features are nicer to work with. The code was also significantly
+              better in Cursor, but I think some of that is the result of having
+              Claude 3.7 Sonnet available. Copilot has also has 3.7 available
+              but I haven&apos;t evaluated it because of compliance concerns.
+              The perceived benefit of going with a product from a more
+              established company like Github/Microsoft still outweighs the
+              slight edge of Cursor when taking into account compliance and
+              privacy concerns.
+            </p>
+            <p>
+              Both Cursor and Copilot Edits currently output junior level code
+              and as such, the output requires exercising code review skills. I
+              expect that newer models will reduce the error rates I find in the
+              output. However, I believe code review and being able to reasoning
+              about the implications of code changes will be the most important
+              skills for software engineers going forward.
             </p>
           </article>
         </div>

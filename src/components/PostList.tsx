@@ -16,9 +16,12 @@ export default function PostList() {
         {slugs.map((slug) => {
           const title = postTitles[slug] || slug
           return (
-            <a className={styles.postLink} key={slug} href={`/posts/${slug}`}>
-              {title}
-            </a>
+            <div key={slug} className={styles.postItem}>
+              <a className={styles.postLink} href={`/posts/${slug}`}>
+                {title}
+              </a>
+              <div className={styles.postDate}>{slug}</div>
+            </div>
           )
         })}
       </div>
