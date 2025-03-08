@@ -35,7 +35,7 @@ export default function About() {
           <article>
             <h2>About Me</h2>
             <p>
-              I try to build good software. I currently lead the development
+              I currently lead the development
               team at a digital mental health startup. My main focuses are
               Native iOS and React Native, but I am the main contributor to most
               of our products outside of Android.
