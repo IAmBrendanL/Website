@@ -4,7 +4,7 @@ import styles from "../styles/PostList.module.css"
 const postTitles: Record<string, string> = {
   "2025-03-01": "Thoughts on AI/LLMs Tools in Software Development",
   "2024-08-07": "Website Progress",
-  "2024-02-19": "Thoughts on Building This Site",
+  "2024-02-19": "Build Something – Anything",
 }
 
 /// Displays a list of posts

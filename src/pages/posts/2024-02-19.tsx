@@ -6,10 +6,10 @@ export default function Post1() {
   return (
     <>
       <Head>
-        <title>Thoughts on Building This Site</title>
+        <title>Build Something – Anything</title>
         <meta
           name="description"
-          content="Thoughts on why I built this site with React and Next.js"
+          content="Thoughts on why I built this site with React and Next.js and musings about building something vs just thinking about it"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -20,7 +20,7 @@ export default function Post1() {
           <NavBar />
 
           <article>
-            <h1>Thoughts on Building This Site</h1>
+            <h1>Build Something – Anything</h1>
             <time dateTime="2024-02-19" className={styles.postDate}>
               February 19, 2024
             </time>
