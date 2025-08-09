@@ -36,9 +36,9 @@ export default function About() {
             <h2>About Me</h2>
             <p>
               I currently lead the development
-              team at a digital mental health startup. I currently split my time between Architcture, Enginnering Management, and Mobile Develpment. 
-              and React Native, with a smattering of other development as needed. 
-              I&apos;m a firm believer that the hardest part of
+              team at a digital mental health startup. I currently split my time between Architcture, 
+              Enginnering Management, and Mobile Develpment (with a smattering of other 
+              development as needed). I&apos;m a firm believer that the hardest part of
               building software is <u>building consensus</u> about <u>what</u>{" "}
               to build rather than building it.
               .
