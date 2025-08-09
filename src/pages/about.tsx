@@ -41,7 +41,6 @@ export default function About() {
               development as needed). I&apos;m a firm believer that the hardest part of
               building software is <u>building consensus</u> about <u>what</u>{" "}
               to build rather than building it.
-              .
             </p>
             <p>
               Outside of work, most of my time is spent with my wife and kids.
