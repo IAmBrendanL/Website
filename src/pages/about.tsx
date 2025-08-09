@@ -36,30 +36,26 @@ export default function About() {
             <h2>About Me</h2>
             <p>
               I currently lead the development
-              team at a digital mental health startup. My main focuses are
-              Native iOS and React Native, but I am the main contributor to most
-              of our products outside of Android.
-            </p>
-            <p>
-              Outside of my development work, I manage and try to mentor one
-              direct report as well as fill gaps in Product & Project
-              Management. I&apos;m a firm believer that the hardest part of
+              team at a digital mental health startup. I currently split my time between Architcture, Enginnering Management, and Mobile Develpment. 
+              and React Native, with a smattering of other development as needed. 
+              I&apos;m a firm believer that the hardest part of
               building software is <u>building consensus</u> about <u>what</u>{" "}
-              to build rather than building it. That&apos;s currently a large
-              part of what I do.
+              to build rather than building it.
+              .
             </p>
             <p>
               Outside of work, most of my time is spent with my wife and kids.
               We enjoy a whole host of outdoor activities, playing games of all
-              kinds, and trying out new coffee shops.
+              kinds, and trying out new coffee shops. Other than that I enjoy reading 
+              and messing with computers when I can.
             </p>
             {/* <h3>Some of the Hats I&apos;ve worn or am wearing:</h3>
-            <ul className={styles.hatList}>{hatListItems}</ul> */}
+            <ul className={styles.hatList}>{hatListItems  }</ul> */}
 
             <h2>About This Site</h2>
             <p>
               This site is supposed to be part blog part whatever I&apos;m in
-              the mood for. I set up this site as a Next.js static site hosted
+              the mood for. It is a Next.js static site hosted
               on GitHub Pages so I can keep it simple while leaving the door
               open to adding more dynamic content in the future.
             </p>
